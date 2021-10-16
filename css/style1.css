@@ -1,0 +1,170 @@
+:root {
+    --button-color:#FDEBEB;
+    --white-color: #fff;
+    --header-text-color: #FAF2F2;
+    --gold-color: #A77E4C;
+    --black-color: #000;
+    --pre-header-color: #C4C4C4;
+    --footer-fon-color: #1C1C1C;
+ }
+ body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white-color);
+    margin:0;
+ }
+ 
+ header {
+    background: url(../images/cassio-jardim-Efd5oh-nQWI-unsplash\ 1.png) no-repeat top/cover;
+    background-origin: content-box;
+ }
+ .zoom img {
+    width: 25px;
+ }
+ .intagram-img {
+    width: 30px;
+    padding-right: 20px;
+ }
+ .envelope-img {
+    width: 36px;
+    padding-right: 15px;
+ }
+ .phone-img {
+    width: 27px;
+    padding-bottom: 3px;
+ }
+ .icon {
+    margin-top: 12px;
+ }
+ #cart {
+    width: 40px;
+ }
+ #menu-toggler:checked ~ ul {
+    display: block;
+ }
+ #menu-toggler {
+    display: none;
+ }
+ #hamburger {
+   background-color: transparent;
+   display: inline-block;
+   width: 46px;
+   height: 41px;
+   padding-right: 0;
+   cursor: pointer;
+   z-index: 3;
+   position: relative;
+ }
+ .main-menu {
+    position: relative;
+ }
+ .main-menu ul {
+   display: none;
+   width: 15em;
+   background-color: var(--gold-color);
+   border: 3px solid var(--white-color);
+   position: absolute;
+   top: 0;
+   right: 65px;
+   margin: 0;
+   color: var(--button-color);
+   padding: 20px ;
+ }
+ .main-menu a {
+   display: block;
+   padding: 10px;
+   text-decoration: none;
+   color: var(--header-text-color);
+   font-family: 'Rajdhani', sans-serif;
+   font-size: 25px;
+   font-weight: 500;
+ }
+ .main-menu li {
+    list-style: none;
+ }
+ .line {
+   background-color: var(--white-color);
+   height: 7px;
+   margin-bottom: 6px;
+   border-radius: 2px;
+ }
+ .button-sing, #dress-fitting, #dress-fitting1,  #dress-fitting2,  #dress-fitting3 {
+    width: 111px;
+    height: 34px;
+    background-color: var(--button-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 5ms;
+ }
+ .button-sing:hover, #dress-fitting:hover, #dress-fitting1:hover,  #dress-fitting2:hover,  #dress-fitting3:hover{
+    background-color: var(--gold-color);
+    color: var(--white-color);
+ }
+ .button-sing:active, #dress-fitting:active,   #dress-fitting1:active,  #dress-fitting2:active,  #dress-fitting3:active{
+    box-shadow: 0 5px rgba(114, 114, 114, 0.726);
+    transform: translateY(4px);
+ }
+ .navbar {
+    padding-top: 35px;
+ }
+ .language a {
+    text-decoration: none;
+    color: var(--white-color);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+ }
+ h1, h2 {
+    text-align: center;
+    text-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.3);
+ }
+ h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-size: 150px;
+    color: var( --header-text-color);
+    margin-bottom: 30px; 
+    margin-top: 73px;
+ }
+ h2 {
+    font-size: 55px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 73px;
+ }
+ span {
+    border-bottom: 1px solid var(--white-color);
+ }
+ #dress-fitting, #dress-fitting1,  #dress-fitting2,  #dress-fitting3 {
+    width: 181px;
+    height: 42px;
+    text-align: center;
+    margin-bottom: 70px;
+ }
+ .button-centre-head, .radio-text-centre {
+    text-align: center;
+ }
+ input[type="radio"] {
+     display: none;
+ }
+ .radio-text-centre label {
+     cursor: pointer;
+     margin: 10px 7px;  
+ } 
+  .radio-text-centre label:before {
+     content: '';
+     display: inline-block;
+     height: 19px;
+     width: 19px;
+     background: var(--button-color);
+     border-radius: 50%;
+     margin-bottom: 75px;
+ }
+ .radio-text-centre input:checked + label:before {
+     box-shadow: inset 0px 3px 0 2px var(--gold-color);
+     background: var(--gold-color);
+ }
